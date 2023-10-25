@@ -2,7 +2,7 @@
 
 ## Where can I download recovery images for my workstation?
 
-Workstation recovery images can be downloaded from our [Lambda Stack and recovery images docs page](../lambda-stack-and-recovery-images.md#workstations).
+Workstation recovery images can be downloaded from our [Lambda Stack and recovery images docs page](../software/lambda-stack-and-recovery-images.md#workstations).
 
 ## How do I set the fan speeds for my workstation?
 
@@ -92,7 +92,7 @@ Workstations can't be upgraded to RTX 4090 GPUs.
 
 To ensure system stability and longevity, the RTX 4090 GPUs we use in our workstations are liquid-cooled, as opposed to air-cooled like other GPUs. To accommodate the liquid-cooling solution and dissipate the amount of heat put out by the RTX 4090 GPUs, the workstation case requires special fan designs and layouts.
 
-## How do I upgrade my system's GPUs, storage, or other hardware?[ ](https://docs.lambdalabs.com/workstations/upgrade-hardware/#zd-article-title) <a href="#zd-article-title" id="zd-article-title"></a>
+## How do I upgrade my system's GPUs, storage, or other hardware?[ ](https://docs.lambdalabs.com/workstations/upgrade-hardware/#zd-article-title)
 
 {% hint style="danger" %}
 Changing your system's hardware without first contacting the Lambda Support team **will void your system's warranty and your support contract**.
