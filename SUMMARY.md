@@ -18,6 +18,7 @@
 * [Basic Linux commands and system administration](software/basic-linux-commands-and-system-administration.md)
 * [Virtual environments and Docker containers](software/virtual-environments-and-docker-containers.md)
 * [Lambda Stack and recovery images](software/lambda-stack-and-recovery-images.md)
+* [Windows](software/windows.md)
 
 ## 📖 Additional Resources
 
