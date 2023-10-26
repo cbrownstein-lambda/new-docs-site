@@ -1,5 +1,9 @@
 # General
 
+## How do I set up my workstation?
+
+
+
 ## Where can I download recovery images for my workstation?
 
 Workstation recovery images can be downloaded from our [Lambda Stack and recovery images docs page](../software/lambda-stack-and-recovery-images.md#workstations).
