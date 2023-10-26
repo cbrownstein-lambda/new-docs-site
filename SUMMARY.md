@@ -13,6 +13,10 @@
 
 * [General](workstations/general.md)
 
+## 💻 Tensorbook
+
+* [General](tensorbook/general.md)
+
 ## 💾 Software
 
 * [Basic Linux commands and system administration](software/basic-linux-commands-and-system-administration.md)
