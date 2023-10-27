@@ -8,6 +8,7 @@
 * [File systems](on-demand-cloud/file-systems.md)
 * [Cloud API](on-demand-cloud/cloud-api.md)
 * [General](on-demand-cloud/general.md)
+* [Dashboard](on-demand-cloud/dashboard.md)
 
 ## 🖥 Workstations
 
