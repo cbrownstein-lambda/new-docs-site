@@ -23,3 +23,53 @@ Until this feature is implemented, you can use persistent storage file systems t
 ## Do you support Kubernetes (K8s)?
 
 We currently don't support Kubernetes, also known as K8s.
+
+## Why can't my program find the NVIDIA cuDNN library?
+
+Unfortunately, the [NVIDIA cuDNN license](https://docs.nvidia.com/deeplearning/cudnn/sla/index.html) limits how cuDNN can be used on our instances.
+
+On our instances, cuDNN can only be used by the PyTorch® framework and TensorFlow library installed as part of [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software).
+
+Other software, including PyTorch and TensorFlow installed outside of Lambda Stack, won’t be able to find and use the cuDNN library installed on our instances.
+
+{% hint style="success" %}
+Software outside of Lambda Stack usually looks for the cuDNN library files in `/usr/lib/x86_64-linux-gnu`. However, on our instances, the cuDNN library files are in `/usr/lib/python3/dist-packages/tensorflow`.
+
+Creating symbolic links, or "symlinks," for the cuDNN library files might allow your program to find the cuDNN library on our instances.
+
+Run the following command to create symlinks for the cuDNN library files:
+
+```bash
+for cudnn_so in /usr/lib/python3/dist-packages/tensorflow/libcudnn*; do
+  sudo ln -s "$cudnn_so" /usr/lib/x86_64-linux-gnu/
+done
+```
+{% endhint %}
+
+## How do I open Jupyter Notebook on my instance?
+
+To open Jupyter Notebook on your instance:
+
+1. In the [GPU instances dashboard](https://cloud.lambdalabs.com/instances), find the row for your instance.
+2. Click **Launch** in the **Cloud IDE** column.
+
+{% hint style="success" %}
+Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.com/watch?v=CKxR6ClKstU) video on YouTube to learn more about using Jupyter Notebook on Lambda GPU Cloud instances.
+{% endhint %}
+
+## How long does it take for instances to launch?
+
+Single-GPU instances usually take 3-5 minutes to launch.
+
+Multi-GPU instances usually take 10-15 minutes to launch.
+
+{% hint style="info" %}
+[Jupyter Notebook](https://docs.lambdalabs.com/cloud/open-jupyter-notebook/) and [Demos](https://docs.lambdalabs.com/cloud/get-started-demos/) can take a few minutes after an instance launches to become accessible.
+{% endhint %}
+
+{% hint style="info" %}
+Billing starts the moment an instance begins booting.
+{% endhint %}
+
+
+
