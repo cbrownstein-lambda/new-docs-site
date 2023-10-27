@@ -2,7 +2,13 @@
 
 ## How do I set up my workstation?
 
+Instructions for setting up your workstation can be found in our Vector quickstart guide.
 
+
+
+{% file src="../.gitbook/assets/Vector_quickstart_guide.pdf" %}
+Vector quickstart guide
+{% endfile %}
 
 ## Where can I download recovery images for my workstation?
 
