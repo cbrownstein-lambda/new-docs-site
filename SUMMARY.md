@@ -10,6 +10,10 @@
 * [General](on-demand-cloud/general.md)
 * [Dashboard](on-demand-cloud/dashboard.md)
 
+## Servers
+
+* [General](servers/general.md)
+
 ## 🖥 Workstations
 
 * [General](workstations/general.md)
