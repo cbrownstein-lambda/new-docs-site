@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  cloud/on-demand-instance-invoicing: on-demand-cloud/billing.md#how-are-on-demand-instances-billed
+  cloud/on-demand-instance-invoicing: on-demand-cloud/billing.md
