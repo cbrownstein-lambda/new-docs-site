@@ -9,6 +9,12 @@ With the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs), you can:
 * [Add SSH keys to and get a list of existing SSH keys](https://docs.lambdalabs.com/cloud/api-add-ssh-key/).
 * [List your file systems](https://docs.lambdalabs.com/cloud/list-file-systems-api/).
 
+{% hint style="info" %}
+Requests to the Cloud API are generally limited to 1 request per second.
+
+Requests to the `/instance-operations/launch` endpoint are limited to 1 request every 10 seconds.
+{% endhint %}
+
 ## Launching instances
 
 You can launch an instance from the command line using the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs):
