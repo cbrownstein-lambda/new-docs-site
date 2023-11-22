@@ -13,6 +13,7 @@
 ## Servers
 
 * [General](servers/general.md)
+* [Getting started](servers/getting-started.md)
 
 ## 🖥 Workstations
 
