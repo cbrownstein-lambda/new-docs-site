@@ -6,7 +6,7 @@ coverY: -247
 # Welcome to Lambda Docs!
 
 {% hint style="info" %}
-Beginning November 29, 2023, new [Lambda GPU Cloud](https://lambdalabs.com/service/gpu-cloud) instances will launch with Ubuntu 22.04 instead of Ubuntu 20.04. Currently running instances won't be affected by this change.
+Beginning December 13, 2023, new [Lambda GPU Cloud](https://lambdalabs.com/service/gpu-cloud) instances will launch with Ubuntu 22.04 instead of Ubuntu 20.04. Currently running instances won't be affected by this change.
 
 Significantly, Ubuntu 22.04 includes Python 3.10, while Ubuntu 20.04 includes Python 3.8.
 
