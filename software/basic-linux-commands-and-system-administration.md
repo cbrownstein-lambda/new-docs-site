@@ -121,3 +121,12 @@ Replace **USERNAME-2** with your username on _Server 2_.
 Replace **SERVER-IP-2** with the IP address of _Server 2_.
 
 Replace **REMOTE-PATH** with the directory into which you want to copy files.
+
+## Preventing system from suspending or sleeping
+
+To prevent your system from going to sleep or suspending, run:
+
+```sh
+sudo systemctl mask hibernate.target hybrid-sleep.target \
+suspend-then-hibernate.target sleep.target suspend.target
+```

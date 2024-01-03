@@ -28,6 +28,18 @@ Recovery ISO images for [Vector](https://lambdalabs.com/gpu-workstations/vector)
 * [Lambda Recovery (Focal)](https://files.lambdalabs.com/recovery/lambda-recovery-focal-20230704.iso) (based on Ubuntu 20.04 LTS _focal_)
 * [Lambda Recovery (Jammy)](https://files.lambdalabs.com/recovery/lambda-recovery-jammy-20230704.iso) (based on Ubuntu 22.04 LTS _jammy_)
 
+### Servers
+
+Recovery images aren't available for servers.
+
+To reinstall Ubuntu and Lambda Stack on your Lambda server, [download the Ubuntu 22.04 Server install image](https://releases.ubuntu.com/22.04/), then follow [Ubuntu's Server installation instructions](https://ubuntu.com/server/docs/installation).
+
+Install the latest Lambda Stack by logging into Ubuntu and running:
+
+```
+wget -nv -O- https://lambdalabs.com/install-lambda-stack.sh | sh -
+```
+
 ### Tensorbook
 
 The recovery ISO image for [Tensorbook](https://lambdalabs.com/deep-learning/laptops/tensorbook) can be downloaded using the following link:
