@@ -131,7 +131,7 @@ sudo systemctl mask hibernate.target hybrid-sleep.target \
 suspend-then-hibernate.target sleep.target suspend.target
 ```
 
-### Creating additional user accounts in Ubuntu Desktop
+## Creating additional user accounts in Ubuntu Desktop
 
 By having their own accounts, users can manage their own files, datasets, and programs, as well as manage their own [Python virtual environments](https://docs.lambdalabs.com/linux/create-python-virtual-environment/), [conda virtual environments](https://docs.lambdalabs.com/linux/create-conda-virtual-environment/), and [Docker containers](https://docs.lambdalabs.com/linux/install-docker-run-container/).
 
