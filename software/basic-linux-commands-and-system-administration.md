@@ -130,3 +130,32 @@ To prevent your system from going to sleep or suspending, run:
 sudo systemctl mask hibernate.target hybrid-sleep.target \
 suspend-then-hibernate.target sleep.target suspend.target
 ```
+
+### Creating additional user accounts in Ubuntu Desktop
+
+By having their own accounts, users can manage their own files, datasets, and programs, as well as manage their own [Python virtual environments](https://docs.lambdalabs.com/linux/create-python-virtual-environment/), [conda virtual environments](https://docs.lambdalabs.com/linux/create-conda-virtual-environment/), and [Docker containers](https://docs.lambdalabs.com/linux/install-docker-run-container/).
+
+Also, by having additional accounts, you can assign system administrator privileges to other users.
+
+You can add user accounts from the **Users** panel in **GNOME Settings**:
+
+1. Press the Super key on your keyboard to open the **Activities** overview. Then, type `users`.
+
+{% hint style="success" %}
+The Super key on your keyboard is located between the **Ctrl** and **Alt** keys.
+
+![](https://docs.lambdalabs.com/lib/images/super-key.svg)
+{% endhint %}
+
+1. Click **Users** to open the **Users** panel in **GNOME Settings**.
+2. Click **Unlock** at the top of the panel, then click **Add User**.
+3. For **Account Type**, choose either **Standard** or **Administrator**.
+   * **Standard** account users can create, modify, and delete only their own files, not system files or other users' files. Standard account users also can change their own settings only, not system settings or other users’ settings.
+   * **Administrator** account users have the same privileges as standard account users. However, administrator account users can also create, modify, and delete system files and other users' files. Administrator account users can also change their system settings and other users' settings.
+4. For **Full Name**, enter the user's full name, that is, their "real" name or name they use to identify themselves.
+5. For **Username**, enter the name the user will use to log into the system. This name will also be the name of the user's home directory, for example, `/home/username`.
+6.  Under **Password**, choose either **Allow user to set a password when they next login**, or **Set a password now**.\
+
+
+    If you choose to set a password now, in the **Password** field, enter a custom password, or click the ![](https://docs.lambdalabs.com/lib/images/settings-symbolic.svg) to automatically generate a password.
+7. Click **Add** at the top of the dialog to add the user.
