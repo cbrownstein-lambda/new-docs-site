@@ -20,7 +20,7 @@
 
 ## Tensorbook
 
-* [General](tensorbook/general.md)
+* [Getting started](tensorbook/getting-started.md)
 
 ## Software
 
