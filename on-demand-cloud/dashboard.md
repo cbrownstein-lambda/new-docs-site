@@ -32,12 +32,12 @@ To launch an instance:
 3.  Click the region in which you want to launch the instance.
 
     <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/select-region_hu1c84697aa3f6ddd66722dec058349f8d_48366_400x0_resize_catmullrom_3.png" alt="" height="603" width="400"><figcaption></figcaption></figure>
-4.  Click the [persistent storage file system](https://docs.lambdalabs.com/cloud/cloud-dashboard/#create-and-manage-persistent-storage-file-systems) that you want to attach to your instance.
+4.  Click the [persistent storage file system](dashboard.md#create-and-manage-persistent-storage-file-systems) that you want to attach to your instance.
 
     If you don’t want to or can’t attach a persistent storage file system to your instance, click **Don’t attach a filesystem**.
 
     <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/select-filesystem_hue77a61cb97978d55e3dfab52056fd4fe_26306_400x0_resize_catmullrom_3.png" alt="" height="287" width="400"><figcaption></figcaption></figure>
-5.  Select the [SSH key](https://docs.lambdalabs.com/cloud/cloud-dashboard/#add-generate-and-delete-ssh-keys) that you want to use for your instance. Then, click **Launch instance**.
+5.  Select the [SSH key](dashboard.md#add-generate-and-delete-ssh-keys) that you want to use for your instance. Then, click **Launch instance**.
 
     <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/select-ssh-key_hu06e4a428bfa7d423474ce5f89c1d936f_18010_400x0_resize_catmullrom_3.png" alt="" height="274" width="400"><figcaption></figcaption></figure>
 
