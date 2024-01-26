@@ -118,9 +118,9 @@ To generate a new SSH key:
 
     The private key for your new SSH key will automatically download.
 
-**Tip**
-
-You can also [use the Cloud API to add and generate SSH keys](https://docs.lambdalabs.com/cloud/api-add-ssh-key/).
+{% hint style="success" %}
+You can also [use the Cloud API to add and generate SSH keys](cloud-api.md#add-an-existing-ssh-key-to-your-account).
+{% endhint %}
 
 #### Delete SSH keys <a href="#delete-ssh-keys" id="delete-ssh-keys"></a>
 
