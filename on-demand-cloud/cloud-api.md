@@ -7,7 +7,7 @@ With the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs), you can:
 * [Get the details of a running instance](cloud-api.md#getting-details-of-a-specific-instance).
 * [Get a list of the instance types offered by Lambda GPU Cloud](cloud-api.md#listing-instances-types-offered-by-lambda-gpu-cloud).
 * [Add SSH keys to and get a list of existing SSH keys](https://docs.lambdalabs.com/cloud/api-add-ssh-key/).
-* [List your file systems](https://docs.lambdalabs.com/cloud/list-file-systems-api/).
+* [List your file systems](cloud-api.md#listing-file-systems).
 
 {% hint style="info" %}
 Requests to the Cloud API are generally limited to 1 request per second.
@@ -217,7 +217,7 @@ Replace **SSH-KEY-ID** with the ID of the SSH key you want to delete.
 [Use the API to obtain the IDs of the SSH keys saved in your account](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#list-the-ssh-keys-saved-in-your-account).
 {% endhint %}
 
-### Listing file systems
+## Listing file systems
 
 To list your [persistent storage file systems](https://lambdalabs.com/blog/persistent-storage-beta/) using the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs):
 
