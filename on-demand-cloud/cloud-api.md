@@ -137,10 +137,10 @@ Replace **API-KEY** with your actual API key. **Don’t remove the trailing colo
 
 You can use the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs) to:
 
-* [Add an existing SSH key to your account](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#add-an-existing-ssh-key-to-your-account).
-* [Generate a new SSH key pair](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#generate-a-new-ssh-key-pair).
-* [List the SSH keys saved in your account](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#list-the-ssh-keys-saved-in-your-account).
-* [Delete an SSH key from your account](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#delete-an-ssh-key-from-your-account).
+* [Add an existing SSH key to your account](cloud-api.md#add-an-existing-ssh-key-to-your-account).
+* [Generate a new SSH key pair](cloud-api.md#generate-a-new-ssh-key-pair).
+* [List the SSH keys saved in your account](cloud-api.md#list-the-ssh-keys-saved-in-your-account).
+* [Delete an SSH key from your account](cloud-api.md#delete-an-ssh-key-from-your-account).
 
 **Note**
 
