@@ -41,10 +41,11 @@ To launch an instance:
 
     <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/select-ssh-key_hu06e4a428bfa7d423474ce5f89c1d936f_18010_400x0_resize_catmullrom_3.png" alt="" height="274" width="400"><figcaption></figcaption></figure>
 
-    **Tip**
+{% hint style="success" %}
+You can [add additional SSH keys](getting-started.md#zd-article-title) to your instance once your instance has launched.
+{% endhint %}
 
-    You can [add additional SSH keys](https://docs.lambdalabs.com/cloud/more-than-one-ssh-key/) to your instance once your instance has launched.
-6.  Review the license agreements and terms of service. If you agree to them, click **I agree to the above** to launch your instance.
+1.  Review the license agreements and terms of service. If you agree to them, click **I agree to the above** to launch your instance.
 
     <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/licensing-agreements_hu5af0173f75998de08196db51ee4d2b3a_31686_400x0_resize_catmullrom_3.png" alt="" height="274" width="400"><figcaption></figcaption></figure>
 
@@ -52,11 +53,11 @@ In the dashboard, you should now see your instance listed. Once your instance ha
 
 <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/instance-details_hu4c7417e3176dcc62a689d5e423bc65a4_14519_1000x0_resize_catmullrom_3.png" alt="" height="58" width="1000"><figcaption></figcaption></figure>
 
-**Tip**
+{% hint style="success" %}
+You can also [launch instances using the Cloud API](cloud-api.md#launching-instances).
 
-You can also [launch instances using the Cloud API](https://docs.lambdalabs.com/cloud/launch-instance-api/).
-
-You can also use the Cloud API to [get details of a running instance](https://docs.lambdalabs.com/cloud/list-details-specific-instance/).
+You can also use the Cloud API to [get details of a running instance](cloud-api.md#getting-details-of-a-specific-instance).
+{% endhint %}
 
 ### Restart instances <a href="#restart-instances" id="restart-instances"></a>
 
