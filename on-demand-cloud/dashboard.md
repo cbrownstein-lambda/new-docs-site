@@ -4,14 +4,14 @@ The [dashboard](https://cloud.lambdalabs.com/instances) makes it easy to get sta
 
 From the dashboard, you can:
 
-* [Launch, restart, and terminate instances](https://docs.lambdalabs.com/cloud/cloud-dashboard/#launch-restart-and-terminate-instances)
-* [Create and manage persistent storage file systems](https://docs.lambdalabs.com/cloud/cloud-dashboard/#create-and-manage-persistent-storage-file-systems)
-* [Add, generate, and delete SSH keys](https://docs.lambdalabs.com/cloud/cloud-dashboard/#add-generate-and-delete-ssh-keys)
-* [Generate and delete API keys](https://docs.lambdalabs.com/cloud/cloud-dashboard/#generate-and-delete-api-keys)
-* [Use the Demos feature](https://docs.lambdalabs.com/cloud/cloud-dashboard/#use-the-demos-feature)
-* [View usage](https://docs.lambdalabs.com/cloud/cloud-dashboard/#view-usage)
-* [Manage a Team](https://docs.lambdalabs.com/cloud/cloud-dashboard/#manage-a-team)
-* [Modify account settings](https://docs.lambdalabs.com/cloud/cloud-dashboard/#modify-account-settings)
+* [Launch, restart, and terminate instances](dashboard.md#launch-restart-and-terminate-instances).
+* [Create and manage persistent storage file systems](dashboard.md#create-and-manage-persistent-storage-file-systems).
+* [Add, generate, and delete SSH keys](dashboard.md#add-generate-and-delete-ssh-keys).
+* [Generate and delete API keys](dashboard.md#generate-and-delete-api-keys).
+* [Use the Demos feature](dashboard.md#use-the-demos-feature).
+* [View usage](dashboard.md#view-usage).
+* [Manage a Team](dashboard.md#manage-a-team).
+* [Modify account settings](dashboard.md#modify-account-settings).
 
 ## Launch, restart, and terminate instances <a href="#launch-restart-and-terminate-instances" id="launch-restart-and-terminate-instances"></a>
 
