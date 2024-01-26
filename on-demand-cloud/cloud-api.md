@@ -6,7 +6,7 @@ With the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs), you can:
 * [List the details of all of your instances](cloud-api.md#listing-details-of-running-instances).
 * [Get the details of a running instance](cloud-api.md#getting-details-of-a-specific-instance).
 * [Get a list of the instance types offered by Lambda GPU Cloud](cloud-api.md#listing-instances-types-offered-by-lambda-gpu-cloud).
-* [Add SSH keys to and get a list of existing SSH keys](https://docs.lambdalabs.com/cloud/api-add-ssh-key/).
+* [Manage your SSH keys](cloud-api.md#managing-ssh-keys).
 * [List your file systems](cloud-api.md#listing-file-systems).
 
 {% hint style="info" %}
