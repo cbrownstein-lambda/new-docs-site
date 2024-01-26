@@ -1,4 +1,4 @@
-# General
+# Getting started
 
 ## How do I set up my workstation?
 
@@ -43,10 +43,14 @@ sudo ipmitool raw 0x30 0x0E 0x04 0x06 0x32 0x23 0x49 0x46 0x5a 0x64 0x61 0x64 0x
 ```
 
 {% hint style="success" %}
-See the [ASUS ASMB9-iKVM Fan Customized Mode User Guide \[PDF\]](https://docs.lambdalabs.com/workstations/fan-speeds-wrx80e-sage/ASMB9-iKVM\_Fan\_Customized\_Mode\_User\_Guide\_v0.71\_20191112.pdf) to learn how to customize fan speeds in the web-based IPMI interface.
+See the ASUS ASMB9-iKVM Fan Customized Mode User Guide \[PDF] to learn how to customize fan speeds in the web-based IPMI interface.
 
 Note that Lambda workstations are high-performance systems and generate plenty of heat. For this reason, it's not recommended to use the guide's power efficiency fan policy.
 {% endhint %}
+
+{% file src="../.gitbook/assets/ASMB9-iKVM_Fan_Customized_Mode_User_Guide_v0.71_20191112.pdf" %}
+ASUS ASMB9-iKVM Fan Customized Mode User Guide
+{% endfile %}
 
 ## How do I upgrade my Samsung 980 PRO NVMe SSD's firmware?
 
