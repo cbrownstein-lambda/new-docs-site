@@ -13,9 +13,9 @@ From the dashboard, you can:
 * [Manage a Team](https://docs.lambdalabs.com/cloud/cloud-dashboard/#manage-a-team)
 * [Modify account settings](https://docs.lambdalabs.com/cloud/cloud-dashboard/#modify-account-settings)
 
-### Launch, restart, and terminate instances <a href="#launch-restart-and-terminate-instances" id="launch-restart-and-terminate-instances"></a>
+## Launch, restart, and terminate instances <a href="#launch-restart-and-terminate-instances" id="launch-restart-and-terminate-instances"></a>
 
-#### Launch instances <a href="#launch-instances" id="launch-instances"></a>
+### Launch instances <a href="#launch-instances" id="launch-instances"></a>
 
 To launch an instance:
 
@@ -58,13 +58,13 @@ You can also [launch instances using the Cloud API](https://docs.lambdalabs.com/
 
 You can also use the Cloud API to [get details of a running instance](https://docs.lambdalabs.com/cloud/list-details-specific-instance/).
 
-#### Restart instances <a href="#restart-instances" id="restart-instances"></a>
+### Restart instances <a href="#restart-instances" id="restart-instances"></a>
 
 Restart instances by clicking the checkboxes next to the instances you want to restart. Then, click **Restart** at the top-right of the dashboard.
 
 <figure><img src="https://docs.lambdalabs.com/cloud/cloud-dashboard/restart-terminate_hud627d239c4da9ede8a38f23f49943247_5199_300x0_resize_catmullrom_3.png" alt="" height="83" width="300"><figcaption></figcaption></figure>
 
-#### Terminate instances <a href="#terminate-instances" id="terminate-instances"></a>
+### Terminate instances <a href="#terminate-instances" id="terminate-instances"></a>
 
 Terminate instances by clicking the checkboxes next to the instances you want to terminate. Then, click **Terminate** at the top-right of the dashboard.
 
