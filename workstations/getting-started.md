@@ -126,18 +126,3 @@ If you're experiencing slow performance and seeing errors, [contact Lambda Suppo
 Workstations can't be upgraded to RTX 4090 GPUs.
 
 To ensure system stability and longevity, the RTX 4090 GPUs we use in our workstations are liquid-cooled, as opposed to air-cooled like other GPUs. To accommodate the liquid-cooling solution and dissipate the amount of heat put out by the RTX 4090 GPUs, the workstation case requires special fan designs and layouts.
-
-## How do I upgrade my system's GPUs, storage, or other hardware?[ ](https://docs.lambdalabs.com/workstations/upgrade-hardware/#zd-article-title)
-
-{% hint style="danger" %}
-Changing your system's hardware without first contacting the Lambda Support team **will void your system's warranty and your support contract**.
-{% endhint %}
-
-[Contact the Lambda Support team](https://lambdalabs.com/support) if you're looking to upgrade any of your system's hardware components, including:
-
-* GPUs (graphics cards)
-* SSDs (storage)
-* RAM (memory)
-* NICs (network cards)
-
-The Lambda Support team will make sure you're purchasing the right upgrades for your system.
