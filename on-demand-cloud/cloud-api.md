@@ -84,7 +84,7 @@ Replace **INSTANCE-IDS** with the name of the payload file you created in the pr
     **Note**
 
 {% hint style="info" %}
-[Use the API to obtain the IDs of your instances](https://docs.lambdalabs.com/cloud/list-running-instances/).
+[Use the API to obtain the IDs of your instances](cloud-api.md#listing-details-of-running-instances).
 {% endhint %}
 
 3. Run the following command:
@@ -214,7 +214,7 @@ Replace **API-KEY** with your actual API key. **Don't remove the trailing colon 
 Replace **SSH-KEY-ID** with the ID of the SSH key you want to delete.
 
 {% hint style="info" %}
-[Use the API to obtain the IDs of the SSH keys saved in your account](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#list-the-ssh-keys-saved-in-your-account).
+[Use the API to obtain the IDs of the SSH keys saved in your account](cloud-api.md#list-the-ssh-keys-saved-in-your-account).
 {% endhint %}
 
 ## Listing file systems
