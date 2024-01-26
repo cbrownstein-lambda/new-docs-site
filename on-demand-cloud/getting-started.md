@@ -62,7 +62,7 @@ Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.co
 It’s possible to allow more than one SSH key to access your instance. To do so, you need to add public keys to `~/.ssh/authorized_keys`. You can do this with the `echo` command.
 
 {% hint style="success" %}
-You can also [import SSH keys from GitHub](https://docs.lambdalabs.com/cloud/ssh-key-from-github/).
+You can also [import SSH keys from GitHub](../software/basic-linux-commands-and-system-administration.md#importing-ssh-keys-from-github-accounts).
 {% endhint %}
 
 {% hint style="info" %}
@@ -102,7 +102,7 @@ Single-GPU instances usually take 3-5 minutes to launch.
 Multi-GPU instances usually take 10-15 minutes to launch.
 
 {% hint style="info" %}
-[Jupyter Notebook](https://docs.lambdalabs.com/cloud/open-jupyter-notebook/) and [Demos](https://docs.lambdalabs.com/cloud/get-started-demos/) can take a few minutes after an instance launches to become accessible.
+[Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) and [Demos](https://docs.lambdalabs.com/cloud/get-started-demos/) can take a few minutes after an instance launches to become accessible.
 {% endhint %}
 
 {% hint style="info" %}
@@ -111,9 +111,9 @@ Billing starts the moment an instance begins booting.
 
 ## How do I learn my instance's private IP address and other info?
 
-You can [learn your instance's private IP address](https://docs.lambdalabs.com/cloud/learn-private-ip-address/#learn-your-instances-private-ip-address) with the `ip` command.
+You can [learn your instance's private IP address](getting-started.md#learn-your-instances-private-ip-address) with the `ip` command.
 
-You can [learn what ports are open on your instance](https://docs.lambdalabs.com/cloud/learn-private-ip-address/#learn-what-ports-on-your-instance-are-publicly-accessible) with the `nmap` command.
+You can [learn what ports are open on your instance](getting-started.md#learn-what-ports-on-your-instance-are-publicly-accessible) with the `nmap` command.
 
 ### Learn your instance's private IP address <a href="#learn-your-instances-private-ip-address" id="learn-your-instances-private-ip-address"></a>
 
