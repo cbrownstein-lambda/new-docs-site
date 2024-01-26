@@ -217,3 +217,15 @@ Replace **SSH-KEY-ID** with the ID of the SSH key you want to delete.
 [Use the API to obtain the IDs of the SSH keys saved in your account](https://docs.lambdalabs.com/cloud/api-add-ssh-key/#list-the-ssh-keys-saved-in-your-account).
 {% endhint %}
 
+### Listing file systems
+
+To list your [persistent storage file systems](https://lambdalabs.com/blog/persistent-storage-beta/) using the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs):
+
+1. [Generate an API key](https://cloud.lambdalabs.com/api-keys) if you don’t already have an API key.
+2. Run the following command:
+
+```bash
+curl -u API-KEY: https://cloud.lambdalabs.com/api/v1/file-systems | jq .
+```
+
+Replace **API-KEY** with your actual API key. **Don’t remove the trailing colon (:).**
