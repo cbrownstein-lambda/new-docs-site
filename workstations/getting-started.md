@@ -52,6 +52,74 @@ Note that Lambda workstations are high-performance systems and generate plenty o
 ASUS ASMB9-iKVM Fan Customized Mode User Guide
 {% endfile %}
 
+## What are the power requirements for my workstation's PSU? <a href="#zd-article-title" id="zd-article-title"></a>
+
+{% hint style="danger" %}
+Lambda workstations are high-performance systems and use a large amount of power. For this reason, **Lambda workstations can’t reliably be used with uninterruptible power supplies (UPSs, or battery backups)**.
+
+If you use a UPS with your workstation, you might experience system instability and trouble booting.
+{% endhint %}
+
+The power requirements for Lambda workstation power supply units (PSUs) are as follows:
+
+{% hint style="info" %}
+The manufacturer and model of your workstation’s PSU appears on the label on the PSU.
+{% endhint %}
+
+| Manufacturer | Model             | Wattage | Voltage (AC) | Current (A) | Frequency (Hz) | Inlet/Outlet |
+| ------------ | ----------------- | ------- | ------------ | ----------- | -------------- | ------------ |
+| Super Flower | SF-1300F14MG V1.0 | 1300    | 100-240      | 15          | 60/50          | C14/C13      |
+| Super Flower | SF-1600F14HT      | 1600    | 115-240      | 17-10       | 60/50          | C20/C19      |
+| Super Flower | SF-2000F14HP      | 2000    | 200-240      | 15          | 50             | C20/C19      |
+
+### Power connector inlets and outlets <a href="#power-connector-inlets-and-outlets" id="power-connector-inlets-and-outlets"></a>
+
+This is what a **C14 inlet** looks like:
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/c14-inlet_hu736c83625d865319dbb7c46a0c4cd646_228543_200x0_resize_catmullrom_3.png" alt="" height="216" width="200"><figcaption></figcaption></figure>
+
+This is what a **C13 outlet** looks like:
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/c13-outlet_hud56b78fe4bc7f393914f8df1a5e81f80_12059_200x0_resize_catmullrom_3.png" alt="" height="181" width="200"><figcaption></figcaption></figure>
+
+This is what a **C20 inlet** looks like:
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/c20-inlet_hu59d9cac5d3c364ee3122d4d7185ecd7c_39408_200x0_resize_catmullrom_3.png" alt="" height="205" width="200"><figcaption></figcaption></figure>
+
+This is what a **C19 outlet** looks like:
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/c19-outlet_hu79a2640a08ec511198f30587dd9704ba_8872_200x0_resize_catmullrom_3.png" alt="" height="208" width="200"><figcaption></figcaption></figure>
+
+### Power cord plugs and receptacles <a href="#power-cord-plugs-and-receptacles" id="power-cord-plugs-and-receptacles"></a>
+
+{% hint style="danger" %}
+Lambda workstations **must** be connected to a dedicated power circuit that isn’t shared with other devices. Otherwise, the **breaker will trip and disconnect power to the circuit**.
+{% endhint %}
+
+#### SF-1300F14MG V1.0 1300W PSU <a href="#sf-1300f14mg-v10-1300w-psu" id="sf-1300f14mg-v10-1300w-psu"></a>
+
+For customers in North America, the SF-1300F14MG V1.0 1300W PSU power cord has a NEMA 5-15 plug. The plug inserts into NEMA 5-15 and NEMA 5-20 receptacles, which look like this:
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/20A-15A-outlets_hue54a9df8979ad81fb35fe71aacc99e09_218903_400x0_resize_catmullrom_3.png" alt="" height="213" width="400"><figcaption></figcaption></figure>
+
+On request, a C13-C14 power cord can be substituted for use with power distribution units (PDUs) commonly found in data centers.
+
+#### SF-1600F14HT 1600W PSU <a href="#sf-1600f14ht-1600w-psu" id="sf-1600f14ht-1600w-psu"></a>
+
+For customers in North America, the SF-1600F14HT 1600W PSU power cord uses a NEMA 5-20 plug. The plug inserts into a NEMA 5-20 receptacle, which looks like the receptacle on the right in the picture, below.
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/20A-15A-outlets_hue54a9df8979ad81fb35fe71aacc99e09_218903_400x0_resize_catmullrom_3.png" alt="" height="213" width="400"><figcaption></figcaption></figure>
+
+On request, a C19-C20 power cord can be substituted for use with power distribution units (PDUs) commonly found in data centers.
+
+#### SF-2000F14HP 2000W PSU <a href="#sf-2000f14hp-2000w-psu" id="sf-2000f14hp-2000w-psu"></a>
+
+For customers in North America, the SF-2000F14HP 2000W PSU power cord uses NEMA 6-20 or NEMA 6-15 connectors, which look like the ones in the third row in the picture, below.
+
+<figure><img src="https://old.docs.lambdalabs.com/workstations/power-requirements/NEMA-connectors_hu4996818b1a6cb5a7fddb62337e57667c_59925_400x0_resize_catmullrom_3.png" alt="" height="330" width="400"><figcaption></figcaption></figure>
+
+On request, a C19-C20 power cord can be substituted for use with power distribution units (PDUs) commonly found in data centers.
+
 ## How do I upgrade my Samsung 980 PRO NVMe SSD's firmware?
 
 Follow these instructions to upgrade your Samsung 980 PRO NVMe SSD's firmware.
