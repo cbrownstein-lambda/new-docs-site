@@ -2,7 +2,9 @@
 
 The [Firewall feature](https://cloud.lambdalabs.com/firewall) allows you to configure firewall rules to restrict incoming traffic to your instances.
 
+{% hint style="info" %}
 Firewall rules configured using the Firewall feature apply to all of your instances outside of the Texas, USA (us-south-1) region.
+{% endhint %}
 
 To use the Firewall feature:
 
@@ -12,10 +14,11 @@ To use the Firewall feature:
 
     Under **General Settings**, use the toggle next to **Allow ICMP traffic (ping)** to allow or restrict incoming ICMP traffic to your instances.
 
-    **Note**
+{% hint style="info" %}
+For network diagnostic tools such as `ping` and `mtr` to be able to reach your instances, you need to allow incoming ICMP traffic.
+{% endhint %}
 
-    For network diagnostic tools such as `ping` and `mtr` to be able to reach your instances, you need to allow incoming ICMP traffic.
-2.  Next to **Inbound Rules**, click **Edit** to configure incoming TCP and UDP traffic rules.
+1.  Next to **Inbound Rules**, click **Edit** to configure incoming TCP and UDP traffic rules.
 
     <figure><img src="https://old.docs.lambdalabs.com/cloud/get-started-firewall/inbound-rules_hu57237b4cb7c6773609764b2590b570c8_17437_800x0_resize_catmullrom_3.png" alt="" height="312" width="800"><figcaption></figcaption></figure>
 
@@ -46,10 +49,10 @@ To use the Firewall feature:
 
     * A single port, for example, `8080`.
     * A range of ports, for example, `8080-8081`.
-3. (Optional) Enter a **Description** for the rule.
-4. (Optional) Click **Add rule** to add additional rules.
-5. (Optional) Click the x next to any rule you want to delete.
-6. Click **Update** to apply your changes.
+2. (Optional) Enter a **Description** for the rule.
+3. (Optional) Click **Add rule** to add additional rules.
+4. (Optional) Click the x next to any rule you want to delete.
+5. Click **Update** to apply your changes.
 
 {% hint style="info" %}
 The maximum number of firewall rules you can have is 20.
