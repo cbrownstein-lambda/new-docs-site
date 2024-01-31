@@ -52,7 +52,7 @@ Note that Lambda workstations are high-performance systems and generate plenty o
 ASUS ASMB9-iKVM Fan Customized Mode User Guide
 {% endfile %}
 
-## What are the power requirements for my workstation's PSU? <a href="#zd-article-title" id="zd-article-title"></a>
+## What are the power requirements for my workstation's PSU?
 
 {% hint style="danger" %}
 Lambda workstations are high-performance systems and use a large amount of power. For this reason, **Lambda workstations can’t reliably be used with uninterruptible power supplies (UPSs, or battery backups)**.
