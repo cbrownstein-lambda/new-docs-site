@@ -104,8 +104,8 @@ Power connector inlets and outlets
 
 This is what **C14 inlets** and **C13 outlets** look like:
 
-<figure><img src="https://docs.lambdalabs.com/servers/power-requirements/c14-c13-connectors_hu42f5eb243ec311f38c013be90e0f947f_247364_400x0_resize_catmullrom_3.png" alt="" height="400" width="400"><figcaption><p>Power cord with C14 and C13 connectors</p></figcaption></figure>
+<figure><img src="https://old.docs.lambdalabs.com/servers/power-requirements/c14-c13-connectors_hu42f5eb243ec311f38c013be90e0f947f_247364_400x0_resize_catmullrom_3.png" alt="" height="400" width="400"><figcaption><p>Power cord with C14 and C13 connectors</p></figcaption></figure>
 
 This is what **C20 inlets** and **C19 outlets** look like:
 
-<figure><img src="https://docs.lambdalabs.com/servers/power-requirements/c20-c19-connectors_hub7bb92652f6e7d335159a840b3989e9b_248506_400x0_resize_catmullrom_3.png" alt="" height="400" width="400"><figcaption><p>Power cord with C20 and C19 connectors</p></figcaption></figure>
+<figure><img src="https://old.docs.lambdalabs.com/servers/power-requirements/c20-c19-connectors_hub7bb92652f6e7d335159a840b3989e9b_248506_400x0_resize_catmullrom_3.png" alt="" height="400" width="400"><figcaption><p>Power cord with C20 and C19 connectors</p></figcaption></figure>
