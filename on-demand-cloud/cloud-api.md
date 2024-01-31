@@ -55,7 +55,7 @@ Replace **API-KEY** with your actual API key. **Don't remove the trailing colon 
     ```
 
 {% hint style="info" %}
-[Use the API to obtain the IDs of your instances](https://docs.lambdalabs.com/cloud/list-running-instances/).
+[Use the API to obtain the IDs of your instances](cloud-api.md#listing-details-of-running-instances).
 {% endhint %}
 
 3. Run the following command:
@@ -147,7 +147,7 @@ You can use the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs) to:
 {% hint style="info" %}
 Following these instructions won't add the SSH key to existing instances.
 
-To add SSH keys to existing instances, read our FAQ on [using more than one SSH key](https://docs.lambdalabs.com/cloud/more-than-one-ssh-key/).
+To add SSH keys to existing instances, read our FAQ on [using more than one SSH key](getting-started.md#zd-article-title).
 {% endhint %}
 
 {% hint style="info" %}
