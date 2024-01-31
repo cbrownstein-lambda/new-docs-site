@@ -23,7 +23,7 @@ Significantly, Ubuntu 22.04 includes Python 3.10, while Ubuntu 20.04 includes Py
 
 * [Can I launch an instance from the command line?](on-demand-cloud/cloud-api.md#launching-instances)
 * [Why is my credit or debit card being declined?](on-demand-cloud/billing.md#why-is-my-card-being-declined)
-* [How do I get started using the Team feature?](on-demand-cloud/getting-started.md)
+* [How do I get started using the Team feature?](on-demand-cloud/team.md)
 * [How do I terminate an instance using the Cloud API?](on-demand-cloud/cloud-api.md#terminating-instances)
 * [How do I use persistent storage to save datasets and system state?](on-demand-cloud/file-systems.md#how-do-i-use-persistent-storage-to-save-datasets-and-system-state)
 * [Can I pause my instance instead of terminating it?](on-demand-cloud/getting-started.md#can-i-pause-my-instance-instead-of-terminating-it)
