@@ -9,6 +9,7 @@
 * [Cloud API](on-demand-cloud/cloud-api.md)
 * [File systems](on-demand-cloud/file-systems.md)
 * [Billing](on-demand-cloud/billing.md)
+* [Firewall](on-demand-cloud/firewall.md)
 
 ## Servers
 
