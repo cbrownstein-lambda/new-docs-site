@@ -45,7 +45,7 @@ To launch an instance:
 You can [add additional SSH keys](getting-started.md#zd-article-title) to your instance once your instance has launched.
 {% endhint %}
 
-1.  Review the license agreements and terms of service. If you agree to them, click **I agree to the above** to launch your instance.
+6.  Review the license agreements and terms of service. If you agree to them, click **I agree to the above** to launch your instance.
 
     <figure><img src="https://old.docs.lambdalabs.com/cloud/cloud-dashboard/licensing-agreements_hu5af0173f75998de08196db51ee4d2b3a_31686_400x0_resize_catmullrom_3.png" alt="" height="274" width="400"><figcaption></figcaption></figure>
 
