@@ -81,8 +81,6 @@ Replace **INSTANCE-IDS** with the name of the payload file you created in the pr
     }
     ```
 
-    **Note**
-
 {% hint style="info" %}
 [Use the API to obtain the IDs of your instances](cloud-api.md#listing-details-of-running-instances).
 {% endhint %}
