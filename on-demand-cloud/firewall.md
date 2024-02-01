@@ -31,28 +31,29 @@ For network diagnostic tools such as `ping` and `mtr` to be able to reach your i
     * **All TCP** to automatically configure a rule to allow all incoming TCP traffic.
     * **All UDP** to automatically configure a rule to allow all incoming UDP traffic.
 
-    **Warning**
+{% hint style="danger" %}
+If you don’t have a rule to allow incoming traffic to port TCP/22, **you won’t be able to access your instances using SSH**.
+{% endhint %}
 
-    If you don’t have a rule to allow incoming traffic to port TCP/22, **you won’t be able to access your instances using SSH**.
+In the **Source** field, either:
 
-    In the **Source** field, either:
+* Click the 🔎 to automatically enter your current IP address.
+* Enter a single IP address, for example, `203.0.113.1`.
+* Enter an IP address range in CIDR notation, for example, `203.0.113.0/24`.
 
-    * Click the 🔎 to automatically enter your current IP address.
-    * Enter a single IP address, for example, `203.0.113.1`.
-    * Enter an IP address range in CIDR notation, for example, `203.0.113.0/24`.
+To allow incoming traffic from any source, enter `0.0.0.0/0`.
 
-    To allow incoming traffic from any source, enter `0.0.0.0/0`.
+If you choose **Custom TCP** or **Custom UDP**, enter a **Port range**.
 
-    If you choose **Custom TCP** or **Custom UDP**, enter a **Port range**.
+**Port range** can be:
 
-    **Port range** can be:
+* A single port, for example, `8080`.
+* A range of ports, for example, `8080-8081`.
 
-    * A single port, for example, `8080`.
-    * A range of ports, for example, `8080-8081`.
-2. (Optional) Enter a **Description** for the rule.
-3. (Optional) Click **Add rule** to add additional rules.
-4. (Optional) Click the x next to any rule you want to delete.
-5. Click **Update** to apply your changes.
+1. (Optional) Enter a **Description** for the rule.
+2. (Optional) Click **Add rule** to add additional rules.
+3. (Optional) Click the **x** next to any rule you want to delete.
+4. Click **Update** to apply your changes.
 
 {% hint style="info" %}
 The maximum number of firewall rules you can have is 20.
