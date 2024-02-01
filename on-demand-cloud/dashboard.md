@@ -73,9 +73,9 @@ When prompted to do so, type in **erase data on instance**, then click **Termina
 
 <figure><img src="https://old.docs.lambdalabs.com/cloud/cloud-dashboard/restart-terminate_hud627d239c4da9ede8a38f23f49943247_5199_300x0_resize_catmullrom_3.png" alt="" height="83" width="300"><figcaption></figcaption></figure>
 
-**Tip**
-
+{% hint style="success" %}
 You can also [terminate instances using the Cloud API](https://docs.lambdalabs.com/cloud/terminate-instance-api/).
+{% endhint %}
 
 ### Create and manage persistent storage file systems <a href="#create-and-manage-persistent-storage-file-systems" id="create-and-manage-persistent-storage-file-systems"></a>
 
