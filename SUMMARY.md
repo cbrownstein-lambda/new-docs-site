@@ -11,6 +11,7 @@
 * [Billing](on-demand-cloud/billing.md)
 * [Firewall](on-demand-cloud/firewall.md)
 * [Team](on-demand-cloud/team.md)
+* [Demos](on-demand-cloud/demos.md)
 
 ## Servers
 
