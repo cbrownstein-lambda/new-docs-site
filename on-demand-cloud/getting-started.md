@@ -95,6 +95,38 @@ cat ~/.ssh/authorized_keys
 The last line of output should be the public key you just added.
 {% endhint %}
 
+## What SSH key formats are supported?
+
+You can add SSH keys in the following formats using the [dashboard](dashboard.md#add-or-generate-an-ssh-key) or the [Cloud API](cloud-api.md#add-an-existing-ssh-key-to-your-account):
+
+* OpenSSH (the format `ssh-keygen` uses by default when generating keys)
+* RFC4716 (the format PuTTYgen uses when you save a public key)
+* PKCS8
+* PEM
+
+{% hint style="info" %}
+*   OpenSSH keys look like:
+
+    ```
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK5HIO+OQSyFjz0clkvg+48YAihYMo5J7AGKiq+9Alg8 foo@bar
+    ```
+*   RFC4716 keys begin with:
+
+    ```
+    ---- BEGIN SSH2 PUBLIC KEY ----
+    ```
+*   PKCS8 keys begin with:
+
+    ```
+    -----BEGIN PUBLIC KEY-----
+    ```
+*   PEM keys begin with, for example:
+
+    ```
+    -----BEGIN RSA PUBLIC KEY-----
+    ```
+{% endhint %}
+
 ## How long does it take for instances to launch?
 
 Single-GPU instances usually take 3-5 minutes to launch.
