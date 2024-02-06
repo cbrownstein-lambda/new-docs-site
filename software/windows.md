@@ -91,7 +91,9 @@ Reboot the machine and test to see if Windows continues to freeze or behave erra
 
 ## Where can I find my Windows license key?
 
-Your Windows license key is located on a cardboard envelope included with your system.
+If you purchased your system with Windows 11 preinstalled, you can [download and reinstall Windows](https://www.microsoft.com/software-download/windows11) without a license key.
+
+If you purchased your system with Windows 10 preinstalled, your Windows license key is located on a cardboard envelope included with your system.
 
 <figure><img src="../.gitbook/assets/windows-license-key-envelope_hu42298444c0bf2bb23a082b86064494bb_46693_400x0_resize_q75_catmullrom.jpg" alt=""><figcaption><p>Cardboard envelope with Windows license key</p></figcaption></figure>
 
