@@ -91,7 +91,7 @@ Reboot the machine and test to see if Windows continues to freeze or behave erra
 
 ## Where can I find my Windows license key?
 
-If you purchased your system with Windows 11 preinstalled, you can [download and reinstall Windows](https://www.microsoft.com/software-download/windows11) without a license key.
+If you purchased your system with Windows 11 preinstalled, you can [download and reinstall Windows 11](https://www.microsoft.com/software-download/windows11) without a license key.
 
 If you purchased your system with Windows 10 preinstalled, your Windows license key is located on a cardboard envelope included with your system.
 
