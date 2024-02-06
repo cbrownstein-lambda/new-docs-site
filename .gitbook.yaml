@@ -21,3 +21,4 @@ redirects:
   cloud/persistent-storage-billing: on-demand-cloud/billing.md
   windows/system-info-using-dxdiag: software/windows.md
   workstations/upgrade-hardware: workstations/general.md
+  cloud/ssh-key-from-github: software/basic-linux-commands-and-system-administration.md
