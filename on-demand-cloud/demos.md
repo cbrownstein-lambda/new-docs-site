@@ -80,7 +80,7 @@ Also, demos currently can’t be hosted on H100 instances.
 To host a demo that’s already added to your account, in the [Demos dashboard](https://cloud.lambdalabs.com/edit-demos), find the row containing the demo you want to host, then click **Host**.
 {% endhint %}
 
-[Your new instance will take several minutes to launch](https://old.docs.lambdalabs.com/cloud/how-long-instance-launch/) and for your demo to become accessible.
+[Your new instance will take several minutes to launch](getting-started.md#how-long-does-it-take-for-instances-to-launch) and for your demo to become accessible.
 
 {% hint style="info" %}
 The link to your demo might temporarily appear in the Instances dashboard, then disappear. This is expected behavior and doesn’t mean your instance or demo is broken.
@@ -100,7 +100,7 @@ To see a gallery of all of your demos, at the top-right of the Demos dashboard, 
 
 If you experience trouble accessing your demo, the Demos logs can be helpful for troubleshooting.
 
-To view the Demos log files, SSH into your instance or open a terminal in [Jupyter Notebook](https://old.docs.lambdalabs.com/cloud/open-jupyter-notebook/), then run:
+To view the Demos log files, SSH into your instance or open a terminal in [Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance), then run:
 
 ```bash
 sudo bash -c 'for f in /root/virt-sysprep-firstboot.log ~demo/bootstrap.log; do printf "### BEGIN $f\n\n"; cat $f; printf "\n### END $f\n\n"; done > demos_debug_logs.txt; printf "### BEGIN journalctl -u lambda-demos.service\n\n$(journalctl -u lambda-demos.service)\n\n### END journalctl -u lambda-demos.service" >> demos_debug_logs.txt'
