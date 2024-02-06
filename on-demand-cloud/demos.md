@@ -4,8 +4,8 @@ The Demos feature allows you to easily share your [Gradio](https://gradio.app/) 
 
 To get started using the Demos feature, you need to:
 
-1. [Add a demo to your Lambda GPU Cloud account](https://old.docs.lambdalabs.com/cloud/get-started-demos/#add-a-demo-to-your-lambda-gpu-cloud-account).
-2. [Host your demo on a new instance](https://old.docs.lambdalabs.com/cloud/get-started-demos/#host-your-demo-on-a-new-instance).
+1. [Add a demo to your Lambda GPU Cloud account](demos.md#add-a-demo-to-your-lambda-gpu-cloud-account).
+2. Host your demo on a new instance.
 
 {% hint style="info" %}
 It currently isn’t possible to host a demo on an existing instance.
