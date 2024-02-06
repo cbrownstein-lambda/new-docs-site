@@ -2,12 +2,16 @@
 
 ## How do I set up my workstation?
 
-Instructions for setting up your workstation can be found in our Vector quickstart guide.
+Instructions for setting up your [Vector](https://lambdalabs.com/gpu-workstations/vector) can be found in our Vector quickstart guide.
 
-
+Instructions for setting up your [Vector One](https://lambdalabs.com/gpu-workstations/vector-one) can be found in our Vector One quickstart guide.
 
 {% file src="../.gitbook/assets/Vector_quickstart_guide.pdf" %}
 Vector quickstart guide
+{% endfile %}
+
+{% file src="../.gitbook/assets/Lambda Vector One Quick Start Guide.pdf" %}
+Vector One quickstart guide
 {% endfile %}
 
 ## Where can I download recovery images for my workstation?
