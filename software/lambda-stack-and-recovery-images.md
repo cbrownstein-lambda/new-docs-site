@@ -42,7 +42,7 @@ This recovery image is for the _Razer x Lambda Tensorbook_ only and won't work o
 See the
 [Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop),
 specifically steps 3 and 4, to learn how to create and boot a USB stick (flash
-drive) using the recovery image.
+drive) using the above recovery images.
 {% endhint %}
 
 {% hint style="info" %}
