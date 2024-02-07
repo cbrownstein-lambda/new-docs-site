@@ -39,6 +39,13 @@ This recovery image is for the _Razer x Lambda Tensorbook_ only and won't work o
 {% endhint %}
 
 {% hint style="info" %}
+See the
+[Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop),
+specifically steps 3 and 4, to learn how to create and boot a USB stick (flash
+drive) using the recovery image.
+{% endhint %}
+
+{% hint style="info" %}
 The recovery images contain software distributed under various licenses, including the [Software License Agreement (SLA) for NVIDIA cuDNN](https://docs.nvidia.com/deeplearning/cudnn/sla/index.html). The licenses can be viewed in the recovery images at `/usr/share/doc/*/copyright`. By using the software contained in the recovery images, you agree to these licenses.
 {% endhint %}
 
