@@ -10,6 +10,19 @@ File systems, also known as persistent storage, allow you to store your large da
 
 Lambda GPU Cloud file systems have a capacity of 8 exabytes, or 8,000,000 terabytes, and you can have a total of 24 file systems, except for file systems created in the Texas, USA (us-south-1) region. The capacity of file systems created in the Texas, USA (us-south-1) region is 10 terabytes.
 
+## How are file systems billed? <a href="#zd-article-title" id="zd-article-title"></a>
+
+Persistent storage is billed per GB used per month, in increments of 1 hour.
+
+For example, based on the price of $0.20 per GB used per month:
+
+* If you use 1,000 GB of your file system capacity for an entire month (30 days, or 720 hours), you’ll be billed $200.00.
+* If you use 1,000 GB of your file system capacity for a single day (24 hours), you’ll be billed $6.67.
+
+{% hint style="info" %}
+The actual price of persistent storage will be displayed when you create your file system.
+{% endhint %}
+
 ## Can file systems be accessed without an instance?
 
 Persistent storage file systems can't be accessed unless attached to an instance _at the time the instance is launched_.
