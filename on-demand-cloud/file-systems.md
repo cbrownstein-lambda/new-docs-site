@@ -10,7 +10,7 @@ File systems, also known as persistent storage, allow you to store your large da
 
 Lambda GPU Cloud file systems have a capacity of 8 exabytes, or 8,000,000 terabytes, and you can have a total of 24 file systems, except for file systems created in the Texas, USA (us-south-1) region. The capacity of file systems created in the Texas, USA (us-south-1) region is 10 terabytes.
 
-## How are file systems billed? <a href="#zd-article-title" id="zd-article-title"></a>
+## How are file systems billed?
 
 Persistent storage is billed per GB used per month, in increments of 1 hour.
 
