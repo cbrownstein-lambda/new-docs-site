@@ -1,5 +1,9 @@
 # Lambda Stack and recovery images
 
+## Packages included in Lambda Stack
+
+<!-- TODO: List packages included in Lambda Stack, and their versions. -->
+
 ## Removing and reinstalling Lambda Stack
 
 To remove and reinstall [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software):
