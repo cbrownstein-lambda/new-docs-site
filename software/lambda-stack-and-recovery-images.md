@@ -21,6 +21,13 @@ wget -nv -O- https://lambdalabs.com/install-lambda-stack.sh | sh -
 
 ## Recovery images
 
+{% hint style="info" %}
+See the
+[Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop),
+specifically steps 3 and 4, to learn how to create and boot a USB stick (flash
+drive) using the below recovery images.
+{% endhint %}
+
 ### Workstations
 
 Recovery ISO images for [Vector](https://lambdalabs.com/gpu-workstations/vector) and [Vector One](https://lambdalabs.com/gpu-workstations/vector-one) can be downloaded using the following links:
@@ -36,13 +43,6 @@ The recovery ISO image for [Tensorbook](https://lambdalabs.com/deep-learning/lap
 
 {% hint style="info" %}
 This recovery image is for the _Razer x Lambda Tensorbook_ only and won't work on older Tensorbook models.
-{% endhint %}
-
-{% hint style="success" %}
-See the
-[Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop),
-specifically steps 3 and 4, to learn how to create and boot a USB stick (flash
-drive) using the above recovery images.
 {% endhint %}
 
 {% hint style="info" %}
