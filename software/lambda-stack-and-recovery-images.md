@@ -38,7 +38,7 @@ The recovery ISO image for [Tensorbook](https://lambdalabs.com/deep-learning/lap
 This recovery image is for the _Razer x Lambda Tensorbook_ only and won't work on older Tensorbook models.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 See the
 [Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop),
 specifically steps 3 and 4, to learn how to create and boot a USB stick (flash
