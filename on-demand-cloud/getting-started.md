@@ -241,6 +241,6 @@ To close your Lambda GPU Cloud account:
 
 2. Terminate all of your instances from the [Cloud dashboard](dashboard.md#terminate-instances) or using the [Cloud API](cloud-api.md#terminating-instances).
 3. Delete all of your persistent storage file systems.
-4. In the [Cloud dashboard](dashboard.md), under [**Settings**](https://cloud.lambdalabs.com/settings), click click **Close my account**.
+4. In the [Cloud dashboard](dashboard.md), under [**Settings**](https://cloud.lambdalabs.com/settings), click **Close my account**. Carefully read the warning in the dialog box that appears. To proceed with closing your account, type in **close account**, then click **Close account**.
 
 ![](../.gitbook/assets/image.png)
