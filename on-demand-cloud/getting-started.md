@@ -228,3 +228,19 @@ If `nmap` doesn’t show TCP/22 (SSH) or any other ports open, your:
 {% hint style="info" %}
 `nmap -Pn INSTANCE-IP-ADDRESS` only scans the 1,000 most common TCP ports.
 {% endhint %}
+
+## How do I close my account?
+
+To close your Lambda GPU Cloud account:
+
+1. Back up all of your data on your instances as well as in your persistent storage file systems.
+
+{% hint style="success" %}
+[You can use rsync to back up your data](../software/basic-linux-commands-and-system-administration.md#using-rsync-to-copy-and-synchronize-files).
+{% endhint %}
+
+2. Terminate all of your instances from the [Cloud dashboard](dashboard.md#terminate-instances) or using the [Cloud API](cloud-api.md#terminating-instances).
+3. Delete all of your persistent storage file systems.
+4. In the [Cloud dashboard](dashboard.md), under [**Settings**](https://cloud.lambdalabs.com/settings), click click **Close my account**.
+
+![](../.gitbook/assets/image.png)

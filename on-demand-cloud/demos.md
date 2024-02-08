@@ -93,7 +93,7 @@ The models used by demos are often several gigabytes in size, and can take 5 to 
 {% hint style="success" %}
 To see a gallery of all of your demos, at the top-right of the Demos dashboard, click the **See your demos** button.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 {% endhint %}
 
 ## Troubleshooting demos <a href="#troubleshooting-demos" id="troubleshooting-demos"></a>
