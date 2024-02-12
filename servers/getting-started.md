@@ -56,6 +56,14 @@ Family: To be filled by O.E.M.
 
 ## Where can I find my server's IPMI (BMC) password?
 
+{% hint style="success" %}
+You can choose your own IPMI password for your server from within Ubuntu:
+
+1. Run `sudo apt-get install ipmitool` to install `ipmitool`, which is a program for managing IPMI functions.
+2. Run `ipmitool user list 1` to view the user list. Confirm that `ID 2` is `admin` or `ADMIN`.
+3. Run `ipmitool user set password 2` to set a new IPMI password.
+{% endhint %}
+
 ### Supermicro <a href="#supermicro" id="supermicro"></a>
 
 On Supermicro chassis, the IPMI password appears on one or more of the following:
@@ -74,14 +82,6 @@ On GIGABYTE chassis, the IPMI password appears on one or more of the following:
 * The chassis itself.
 
 See GIGABYTE's [BMC Unique Pre-Programmed Password Reference Guide \[PDF\]](https://www.gigabyte.com/Fileupload/Global/Multimedia/101/file/573/1015.pdf) for more information.
-
-{% hint style="success" %}
-You can choose your own IPMI password for your server from within Ubuntu:
-
-1. Run `sudo apt-get install ipmitool` to install `ipmitool`, which is a program for managing IPMI functions.
-2. Run `ipmitool user list 1` to view the user list. Confirm that `ID 2` is `admin` or `ADMIN`.
-3. Run `ipmitool user set password 2` to set a new IPMI password.
-{% endhint %}
 
 ## What are the power requirements for my server's PSUs?
 
