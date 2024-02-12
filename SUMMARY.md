@@ -31,6 +31,7 @@
 * [Virtual environments and Docker containers](software/virtual-environments-and-docker-containers.md)
 * [Lambda Stack and recovery images](software/lambda-stack-and-recovery-images.md)
 * [Windows](software/windows.md)
+* [Troubleshooting and debugging](software/troubleshooting-and-debugging.md)
 
 ## Additional Resources
 

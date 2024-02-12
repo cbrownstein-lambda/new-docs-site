@@ -160,14 +160,3 @@ The Super key on your keyboard is located between the **Ctrl** and **Alt** keys.
     If you choose to set a password now, in the **Password** field, enter a custom password, or click the ![](https://docs.lambdalabs.com/lib/images/settings-symbolic.svg) to automatically generate a password.
 7. Click **Add** at the top of the dialog to add the user.
 
-## Generating an NVIDIA bug report
-
-NVIDIA bug reports are useful for troubleshooting systems with NVIDIA GPUs, including Cloud instances.
-
-To generate an NVIDIA bug report, run `sudo nvidia-bug-report.sh`. This command creates a file named `nvidia-bug-report.log.gz` in your current directory. This file contains the NVIDIA bug report.
-
-You can view the contents of the `nvidia-bug-report.log.gz` file by running `zless nvidia-bug-report.log.gz`.
-
-{% hint style="info" %}
-Be sure to generate and provide an NVIDIA bug report whenever [submitting a support ticket to Lambda Support](https://lambdalabs.com/support). Providing an NVIDIA bug report when you first submit a ticket helps Support more quickly troubleshoot any problems you're experiencing with your Lambda system.
-{% endhint %}
