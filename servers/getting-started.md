@@ -76,7 +76,7 @@ On GIGABYTE chassis, the IPMI password appears on one or more of the following:
 See GIGABYTE's [BMC Unique Pre-Programmed Password Reference Guide \[PDF\]](https://www.gigabyte.com/Fileupload/Global/Multimedia/101/file/573/1015.pdf) for more information.
 
 {% hint style="success" %}
-You can choose your own IPMI password from within Ubuntu:
+You can choose your own IPMI password for your server from within Ubuntu:
 
 1. Run `sudo apt-get install ipmitool` to install `ipmitool`, which is a program for managing IPMI functions.
 2. Run `ipmitool user list 1` to view the user list. Confirm that `ID 2` is `admin` or `ADMIN`.
