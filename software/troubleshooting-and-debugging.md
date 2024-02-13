@@ -53,7 +53,7 @@ To use MSINFO32:
 This will create a file on your Desktop named `sysinfo.txt` that contains useful information about your computer.
 
 {% hint style="info" %}
-You can additionally use [DxDiag](windows.md#how-do-i-gather-system-information-in-windows-using-dxdiag) to gather useful information for troubleshooting.
+You can additionally use [DxDiag](troubleshooting-and-debugging.md#how-do-i-gather-system-information-in-windows-using-dxdiag) to gather useful information for troubleshooting.
 {% endhint %}
 
 ### How do I prevent an incorrect clock in Windows after booting Ubuntu?
