@@ -11,7 +11,7 @@ Beginning March 1, 2024, Lambda will charge sales tax in jurisdictions it's
 required to do so.
 [Update your billing address](https://cloud.lambdalabs.com/settings) before
 March 1 to ensure the tax is correctly calculated and to avoid disruption to
-your account billing.
+your account.
 {% endhint %}
 
 {% hint style="info" %}
