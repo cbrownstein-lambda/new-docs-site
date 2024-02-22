@@ -20,16 +20,6 @@ On-demand instances require us to maintain excess capacity at all times so we ca
 Conversely, we offer [reserved GPU Cloud instances](https://lambdalabs.com/service/gpu-cloud/reserved) at a significant savings over on-demand instances, since they allow us to more accurately determine our capacity needs ahead of time.
 {% endhint %}
 
-## Do I have to pay sales tax for usage of Lambda GPU Cloud?
-
-Beginning March 1, 2024, sales tax will be charged for usage of Lambda GPU Cloud.
-
-The sales tax you're charged is based on the billing address associated with your account. For this reason, it's important that you always [keep your billing address up to date](https://cloud.lambdalabs.com/settings) using the [Cloud dashboard](dashboard.md#modify-account-settings).
-
-{% hint style="warning" %}
-You won't be able to launch new instances if you don't have a billing address associated with your account.
-{% endhint %}
-
 ## How are file systems billed?
 
 File systems are billed per GB used per month, in increments of 1 hour.
@@ -41,6 +31,16 @@ For example, based on the price of $0.20 per GB used per month:
 
 {% hint style="info" %}
 The actual price of persistent storage will be displayed when you create your file system.
+{% endhint %}
+
+## Do I have to pay sales tax for usage of Lambda GPU Cloud?
+
+Beginning March 1, 2024, sales tax will be charged for usage of Lambda GPU Cloud.
+
+The sales tax you're charged is based on the billing address associated with your account. For this reason, it's important that you always [keep your billing address up to date](https://cloud.lambdalabs.com/settings) using the [Cloud dashboard](dashboard.md#modify-account-settings).
+
+{% hint style="warning" %}
+You won't be able to launch new instances if you don't have a billing address associated with your account.
 {% endhint %}
 
 ## Why is my card being declined?
