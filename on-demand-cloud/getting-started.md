@@ -22,7 +22,15 @@ Until this feature is implemented, you can use persistent storage file systems t
 
 ## Do you support Kubernetes (K8s)?
 
-We currently don't support Kubernetes, also known as K8s.
+Kubernetes, also known as K8s, isn't supported on On-Demand Cloud.
+
+However, Lambda offers managed Kubernetes for [Reserved Cloud](https://lambdalabs.com/service/gpu-cloud/reserved).
+
+See our Managed Kubernetes Product Outline to learn more.
+
+{% file src="../.gitbook/assets/Managed Kubernetes Product Outline.pdf" %}
+Managed Kubernetes Product Outline
+{% endfile %}
 
 ## Why can't my program find the NVIDIA cuDNN library?
 
