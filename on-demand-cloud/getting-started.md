@@ -76,7 +76,6 @@ alongside the preinstalled version, and use your desired version in a
 [virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments).
 {% endhint %}
 
-
 To install another version of Python alongside the preinstalled version:
 
 1. Run `sudo apt -y update && sudo apt -y install PYTHON-VERSION-full`.
