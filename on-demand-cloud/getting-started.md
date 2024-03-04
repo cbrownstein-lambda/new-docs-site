@@ -73,7 +73,7 @@ newer version, will break your instance.
 
 Instead of upgrading Python, you should install your desired version of Python
 alongside the preinstalled version, and use your desired version in a
-[virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments)
+[virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments).
 {% endhint %}
 
 
