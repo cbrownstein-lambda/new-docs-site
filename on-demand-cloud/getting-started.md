@@ -103,6 +103,15 @@ To install another version of Python alongside the preinstalled version:
 
    Replace **VENV-NAME** with the name you gave your virtual environment.
 
+   As a complete example, if you wanted to create a virtual environment named
+   `my-virtual-environment` using Python version 3.13 (installed in the
+   example in the previous step), run:
+
+   ```bash
+   python3.13 -m venv my-virtual-environment
+   source my-virtual-environment/bin/activate
+   ```
+
 ## Is it possible to use more than one SSH key?
 
 It’s possible to allow more than one SSH key to access your instance. To do so, you need to add public keys to `~/.ssh/authorized_keys`. You can do this with the `echo` command.
