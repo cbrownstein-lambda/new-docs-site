@@ -85,6 +85,13 @@ To install another version of Python alongside the preinstalled version:
    otherwise, you won't have the `venv` module needed to create Python virtual
    environments.
 
+   As a complete example, if you wanted to install Python version 3.13, you'd
+   run:
+
+   ```bash
+   sudo apt -y update && sudo apt -y install python3.13-full
+   ```
+
 2. Run `PYTHON-VERSION -m venv VENV-NAME` to create a
    [Python virtual environment](../software/virtual-environments-and-docker-containers.md#creating-a-python-virtual-environment).
 
