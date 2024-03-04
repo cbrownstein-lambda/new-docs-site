@@ -85,7 +85,7 @@ To install another version of Python alongside the preinstalled version:
    otherwise, you won't have the `venv` module needed to create Python virtual
    environments.
 
-   As a complete example, if you wanted to install Python version 3.13, you'd
+   As a complete example, if you want to install Python version 3.13,
    run:
 
    ```bash
@@ -103,7 +103,7 @@ To install another version of Python alongside the preinstalled version:
 
    Replace **VENV-NAME** with the name you gave your virtual environment.
 
-   As a complete example, if you wanted to create a virtual environment named
+   As a complete example, if you want to create a virtual environment named
    `my-virtual-environment` using Python version 3.13 (installed in the
    example in the previous step), run:
 
