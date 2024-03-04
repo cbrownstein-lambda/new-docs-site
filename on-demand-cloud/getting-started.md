@@ -68,52 +68,39 @@ Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.co
 ## How do I upgrade Python?
 
 {% hint style="danger" %}
-Upgrading Python, that is, replacing the preinstalled Python version with a
-newer version, will break your instance.
+Upgrading Python, that is, replacing the preinstalled Python version with a newer version, will break your instance.
 
-Instead of upgrading Python, you should install your desired version of Python
-alongside the preinstalled version, and use your desired version in a
-[virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments).
+Instead of upgrading Python, you should install your desired version of Python alongside the preinstalled version, and use your desired version in a [virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments).
 {% endhint %}
 
 To install another version of Python alongside the preinstalled version:
 
 1. Run `sudo apt -y update && sudo apt -y install pythonVERSION-full`.
 
-   Replace **VERSION** with the Python version you want to install, for
-   example, `3.13`. Make sure `-full` is appended to the Python version,
-   otherwise, you won't have the `venv` module needed to create Python virtual
-   environments.
+Replace **VERSION** with the Python version you want to install, for example, `3.13`. Make sure `-full` is appended to the Python version, otherwise, you won't have the `venv` module needed to create Python virtual environments.
 
-   As a complete example, if you want to install Python version 3.13,
-   run:
+As a complete example, if you want to install Python version 3.13, run:
 
-   ```bash
-   sudo apt -y update && sudo apt -y install python3.13-full
-   ```
+```bash
+sudo apt -y update && sudo apt -y install python3.13-full
+```
 
-2. Run `PYTHON-VERSION -m venv VENV-NAME` to create a
-   [Python virtual environment](../software/virtual-environments-and-docker-containers.md#creating-a-python-virtual-environment).
+2. Run `pythonVERSION -m venv VENV-NAME` to create a [Python virtual environment](../software/virtual-environments-and-docker-containers.md#creating-a-python-virtual-environment).
 
-   Replace **PYTHON-VERSION** with the Python version you installed in the
-   previous step. Replace **VENV-NAME** with the name you want to give your
-   virtual environment.
+Replace **VERSION** with the Python version you installed in the previous step. Replace **VENV-NAME** with the name you want to give your virtual environment.
 
-   Then, run `source VENV-NAME/bin/activate`.
+Then, run `source VENV-NAME/bin/activate`.
 
-   Replace **VENV-NAME** with the name you gave your virtual environment.
+Replace **VENV-NAME** with the name you gave your virtual environment.
 
-   As a complete example, if you want to create a virtual environment named
-   `my-virtual-environment` using Python version 3.13 (installed in the
-   example in the previous step), run:
+As a complete example, if you want to create a virtual environment named `my-virtual-environment` using Python version 3.13 (installed in the example in the previous step), run:
 
-   ```bash
-   python3.13 -m venv my-virtual-environment
-   source my-virtual-environment/bin/activate
-   ```
+```bash
+python3.13 -m venv my-virtual-environment
+source my-virtual-environment/bin/activate
+```
 
-   Run `python --version` to confirm that your virtual environment is using
-   your desired Python version.
+Run `python --version` to confirm that your virtual environment is using your desired Python version.
 
 ## Is it possible to use more than one SSH key?
 
@@ -275,8 +262,6 @@ Nmap done: 1 IP address (1 host up) scanned in 6.42 seconds
 In the above example, TCP port 22 (SSH) is publicly accessible.
 
 {% hint style="info" %}
-
-
 If `nmap` doesn’t show TCP/22 (SSH) or any other ports open, your:
 
 * Instance might be terminated. Check the [GPU Instances dashboard](https://cloud.lambdalabs.com/instances) to find out.
