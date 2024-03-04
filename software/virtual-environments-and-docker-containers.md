@@ -26,7 +26,7 @@ To create a virtual environment that _doesn't_ have access to Lambda Stack and U
 2. Activate the virtual environment by running:
 
 ```bash
-. NAME/bin/activate
+source NAME/bin/activate
 ```
 
 Replace **NAME** with the name you gave your virtual environment in the previous step.
