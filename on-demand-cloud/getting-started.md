@@ -65,7 +65,7 @@ To open Jupyter Notebook on your instance:
 Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.com/watch?v=CKxR6ClKstU) video on YouTube to learn more about using Jupyter Notebook on Lambda GPU Cloud instances.
 {% endhint %}
 
-## Is it possible to use more than one SSH key? <a href="#zd-article-title" id="zd-article-title"></a>
+## Is it possible to use more than one SSH key?
 
 It’s possible to allow more than one SSH key to access your instance. To do so, you need to add public keys to `~/.ssh/authorized_keys`. You can do this with the `echo` command.
 
