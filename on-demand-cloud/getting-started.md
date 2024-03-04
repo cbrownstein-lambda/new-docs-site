@@ -78,10 +78,10 @@ alongside the preinstalled version, and use your desired version in a
 
 To install another version of Python alongside the preinstalled version:
 
-1. Run `sudo apt -y update && sudo apt -y install PYTHON-VERSION-full`.
+1. Run `sudo apt -y update && sudo apt -y install pythonVERSION-full`.
 
-   Replace **PYTHON-VERSION** with the Python version you want to install, for
-   example, `python3.13`. Make sure `-full` is appended to the Python version,
+   Replace **VERSION** with the Python version you want to install, for
+   example, `3.13`. Make sure `-full` is appended to the Python version,
    otherwise, you won't have the `venv` module needed to create Python virtual
    environments.
 
