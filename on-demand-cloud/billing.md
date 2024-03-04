@@ -94,7 +94,7 @@ If none of these are applicable to you, [contact the Lambda Support team](https:
 ## What happens to my account if I don't pay an invoice?
 
 {% hint style="danger" %}
-If an [invoice](billing.md#zd-article-title) remains unpaid after we've made 4 attempts to charge the card on file, we may suspend your account.
+If an [invoice](billing.md#how-are-on-demand-instances-billed) remains unpaid after we've made 4 attempts to charge the card on file, we may suspend your account.
 
 If your account is suspended, your running instances may be terminated and your files may be deleted without prior notice.
 

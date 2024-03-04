@@ -145,7 +145,7 @@ You can use the [Cloud API](https://cloud.lambdalabs.com/api/v1/docs) to:
 {% hint style="info" %}
 Following these instructions won't add the SSH key to existing instances.
 
-To add SSH keys to existing instances, read our FAQ on [using more than one SSH key](getting-started.md#zd-article-title).
+To add SSH keys to existing instances, read our FAQ on [using more than one SSH key](getting-started.md#is-it-possible-to-use-more-than-one-ssh-key).
 {% endhint %}
 
 {% hint style="info" %}
