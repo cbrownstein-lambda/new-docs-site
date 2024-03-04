@@ -85,7 +85,7 @@ To install another version of Python alongside the preinstalled version:
    otherwise, you won't have the `venv` module needed to create Python virtual
    environments.
 
-2. Run `PYTHON-VERSION -m venv` to create a
+2. Run `PYTHON-VERSION -m venv VENV-NAME` to create a
    [Python virtual environment](../software/virtual-environments-and-docker-containers.md#creating-a-python-virtual-environment).
 
    Replace `PYTHON-VERSION` with the Python version you installed in the
