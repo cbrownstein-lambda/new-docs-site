@@ -112,6 +112,9 @@ To install another version of Python alongside the preinstalled version:
    source my-virtual-environment/bin/activate
    ```
 
+   Run `python --version` to confirm that your virtual environment is using
+   your desired Python version.
+
 ## Is it possible to use more than one SSH key?
 
 It’s possible to allow more than one SSH key to access your instance. To do so, you need to add public keys to `~/.ssh/authorized_keys`. You can do this with the `echo` command.
