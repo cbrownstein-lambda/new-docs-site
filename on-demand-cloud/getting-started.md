@@ -65,6 +65,33 @@ To open Jupyter Notebook on your instance:
 Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.com/watch?v=CKxR6ClKstU) video on YouTube to learn more about using Jupyter Notebook on Lambda GPU Cloud instances.
 {% endhint %}
 
+## How do I upgrade Python?
+
+{% hint style="danger" %}
+Upgrading Python, that is, replacing the preinstalled Python version with a
+newer version, will break your instance.
+
+Instead of upgrading Python, you should install your desired version of Python
+alongside the preinstalled version, and use your desired version in a
+[virtual environment](../software/virtual-environments-and-docker-containers#what-are-virtual-environments)
+{% endhint %}
+
+
+To install another version of Python alongside the preinstalled version:
+
+1. Run `sudo apt -y update && sudo apt -y install PYTHON-VERSION-full`.
+
+   Replace **PYTHON-VERSION** with the Python version you want to install, for
+   example, `python3.13`. Make sure `-full` is appended to the Python version,
+   otherwise, you won't have the `venv` module needed to create Python virtual
+   environments.
+
+2. Run `PYTHON-VERSION -m venv` to create a
+   [Python virtual environment](../software/virtual-environments-and-docker-containers#creating-a-python-virtual-environment).
+
+   Replace `PYTHON-VERSION` with the Python version you installed in the
+   previous step.
+
 ## Is it possible to use more than one SSH key?
 
 It’s possible to allow more than one SSH key to access your instance. To do so, you need to add public keys to `~/.ssh/authorized_keys`. You can do this with the `echo` command.
