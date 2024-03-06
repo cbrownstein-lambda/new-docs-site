@@ -5,13 +5,8 @@ coverY: -247
 
 # Welcome to Lambda Docs!
 
-
 {% hint style="warning" %}
-Beginning March 1, 2024, Lambda will charge sales tax in jurisdictions it's
-required to do so.
-[Update your billing address](https://cloud.lambdalabs.com/settings) before
-March 1 to ensure the tax is correctly calculated and to avoid disruption to
-your account.
+Beginning March 1, 2024, Lambda will charge [sales tax](on-demand-cloud/billing.md#do-i-have-to-pay-sales-tax-for-usage-of-lambda-gpu-cloud) in jurisdictions it's required to do so. [Update your billing address](https://cloud.lambdalabs.com/settings) before March 1 to ensure the tax is correctly calculated and to avoid disruption to your account.
 {% endhint %}
 
 {% hint style="info" %}
@@ -45,4 +40,4 @@ Beginning March 4, 2024, [Cloud file systems](https://lambdalabs.com/blog/persis
 
 * [Where can I download recovery images for my Tensorbook?](tensorbook/getting-started.md#where-can-i-download-recovery-images-for-my-tensorbook)
 * [How do I reinstall Lambda Stack in Ubuntu on my Tensorbook?](tensorbook/getting-started.md#how-do-i-reinstall-lambda-stack-in-ubuntu-on-my-tensorbook)
-* [How do I fix resolution and brightness control on my Tensorbook?](tensorbook/getting-started.md#how-do-i-fix-resolution-and-brightness-control-on-my-tensorbook)\
+* [How do I fix resolution and brightness control on my Tensorbook?](tensorbook/getting-started.md#how-do-i-fix-resolution-and-brightness-control-on-my-tensorbook)\\

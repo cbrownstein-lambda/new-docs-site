@@ -40,7 +40,9 @@ Beginning March 1, 2024, sales tax will be charged for usage of Lambda GPU Cloud
 The sales tax you're charged is based on the billing address associated with your account. For this reason, it's important that you always [keep your billing address up to date](https://cloud.lambdalabs.com/settings) using the [Cloud dashboard](dashboard.md#modify-account-settings).
 
 {% hint style="info" %}
-If your billing address is in the United States, leave the **VAT/GST #** field empty. This number is required only for accounts with a billing address outside of the United States.
+If your billing address is outside the United States, you'll need to fill in the **VAT/GST #** field.
+
+[See the European Commission's FAQs](https://taxation-customs.ec.europa.eu/vat-identification-numbers\_en) to learn more about VAT identification numbers.
 {% endhint %}
 
 {% hint style="warning" %}

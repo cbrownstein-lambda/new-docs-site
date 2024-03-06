@@ -102,6 +102,12 @@ source my-virtual-environment/bin/activate
 
 Run `python --version` to confirm that your virtual environment is using your desired Python version.
 
+## Can I upgrade to the latest Ubuntu release?
+
+{% hint style="danger" %}
+**Do not run `sudo do-release-upgrade` or try to upgrade to the latest Ubuntu release.** Doing so will break [Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) and you might not be able to access your data.
+{% endhint %}
+
 ## Is it possible to use more than one SSH key?
 
 It’s possible to allow more than one SSH key to access your instance. To do so, you need to add public keys to `~/.ssh/authorized_keys`. You can do this with the `echo` command.
