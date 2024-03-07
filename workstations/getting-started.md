@@ -14,6 +14,39 @@ Vector quickstart guide
 Vector One quickstart guide
 {% endfile %}
 
+## How do I fix Wi-Fi issues with my Vector One?
+
+There are [known issues in Ubuntu](https://bugs.launchpad.net/ubuntu/+source/linux-firmware/+bug/2049220) with the Wi-Fi adapter installed in Vector Ones. In some cases, the Wi-Fi adapter isn't detected at all. In other cases, the Wi-Fi adapter is detected but exhibits slow performance. These issues are fixed in updated firmware for the Wi-Fi adapter.
+
+In order to download and install the updated firmware, you need to connect your Vector One to the Internet.
+
+If your Wi-Fi adapter isn't detected at all, try booting using a previous kernel version. Your Wi-Fi adapter might be detected and you can download the updated firmware.
+
+{% hint style="success" %}
+You can also connect your Vector One to the Internet using Ethernet (recommended), a USB Wi-Fi adapter, or by tethering your[ iPhone](https://support.apple.com/guide/iphone/share-your-internet-connection-iph45447ca6/ios) or [Android](https://support.apple.com/guide/iphone/share-your-internet-connection-iph45447ca6/ios) phone.
+{% endhint %}
+
+Once your Vector One is connected to the Internet:
+
+1. Press the **Super** key on your keyboard to open the **Activities** overview. Type `software`, then click **Software & Updates**. Under the **Developer Options** tab, check the box for **Pre-released updates**. Close **Software & Updates**. When presented with a dialog that says **The information about available software is out of date**, click **Reload**.
+2. In a terminal, run:
+
+```bash
+sudo apt install -y linux-firmware
+```
+
+Confirm the updated firmware is installed by running:
+
+```bash
+dpkg --status linux-firmware | grep ^Version
+```
+
+You should see `Version: 20220329.git681281e4-0ubuntu3.29`.
+
+3. Reboot your Vector One, connect to your Wi-Fi network and test the performance.
+
+If Wi-Fi performs as expected, open **Software & Updates** and, under the **Developer Options** tab, uncheck **Pre-released updates**. Close **Software & Updates** and when presented with a dialog that says **The information about available software is out of date**, click **Reload**.
+
 ## Where can I download recovery images for my workstation?
 
 Workstation recovery images can be downloaded from our [Lambda Stack and recovery images docs page](../software/lambda-stack-and-recovery-images.md#workstations).
