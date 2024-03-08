@@ -22,10 +22,7 @@ wget -nv -O- https://lambdalabs.com/install-lambda-stack.sh | sh -
 ## Recovery images
 
 {% hint style="info" %}
-See the
-[Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop),
-specifically steps 3 and 4, to learn how to create and boot a USB stick (flash
-drive) using the below recovery images.
+See the [Install Ubuntu desktop tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop), specifically steps 3 and 4, to learn how to create and boot a USB stick (flash drive) using the below recovery images.
 {% endhint %}
 
 ### Workstations
@@ -57,7 +54,6 @@ To reinstall Ubuntu and Lambda Stack on your Lambda server, [download the Ubuntu
 
 Install the latest Lambda Stack by logging into Ubuntu and running:
 
+```bash
+wget -nv -O- https://lambdalabs.com/install-lambda-stack.sh | I_AGREE_TO_THE_CUDNN_LICENSE=1 sh -
 ```
-wget -nv -O- https://lambdalabs.com/install-lambda-stack.sh | sh -
-```
-
