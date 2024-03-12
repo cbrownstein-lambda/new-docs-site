@@ -105,7 +105,7 @@ Run `python --version` to confirm that your virtual environment is using your de
 ## Can I upgrade to the latest Ubuntu release?
 
 {% hint style="danger" %}
-**Do not run `sudo do-release-upgrade` or try to upgrade to the latest Ubuntu release.** Doing so will break [Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) and unless you have [SSH access](dashboard.md#add-or-generate-an-ssh-key) to your instance, Lambda Support won't be able to help you recover your data.
+**Do not run `sudo do-release-upgrade` or try to upgrade to the latest Ubuntu release.** Doing so will break [Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) and unless you have [SSH access](dashboard.md#add-or-generate-an-ssh-key) to your instance, [Lambda Support](https://lambdalabs.com/support) won't be able to help you recover your data.
 
 Jupyter Notebook on our instances is configured and tested for the preinstalled version of Python. Upgrading to the latest Ubuntu release will replace the preinstalled version of Python and make Jupyter Notebook inaccessible.
 {% endhint %}
