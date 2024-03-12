@@ -68,7 +68,7 @@ Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.co
 ## How do I upgrade Python?
 
 {% hint style="danger" %}
-Upgrading Python, that is, replacing the preinstalled Python version with a newer version, will break your instance. For example,[ Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) is configured and tested for the Python version preinstalled on instances, and won't be accessible if the preinstalled version of Python is replaced. **If this happens and you don't have SSH access to your instance, Lambda Support won't be able to help you recover data on your instance.**
+Upgrading Python, that is, replacing the preinstalled Python version with a newer version, will break your instance.
 
 Instead of upgrading Python, you should install your desired version of Python alongside the preinstalled version, and use your desired version in a [virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments).
 {% endhint %}
@@ -105,7 +105,9 @@ Run `python --version` to confirm that your virtual environment is using your de
 ## Can I upgrade to the latest Ubuntu release?
 
 {% hint style="danger" %}
-**Do not run `sudo do-release-upgrade` or try to upgrade to the latest Ubuntu release.** Doing so will break [Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) and you might not be able to access your data.
+**Do not run `sudo do-release-upgrade` or try to upgrade to the latest Ubuntu release.** Doing so will break [Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) and unless you have [SSH access](dashboard.md#add-or-generate-an-ssh-key) to your instance, Lambda Support won't be able to help you recover your data.
+
+Jupyter Notebook on our instances is configured and tested for the preinstalled version of Python. Upgrading to the latest Ubuntu release will replace the preinstalled version of Python and make Jupyter Notebook inaccessible.
 {% endhint %}
 
 ## Is it possible to use more than one SSH key?
