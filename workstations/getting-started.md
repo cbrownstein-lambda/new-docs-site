@@ -26,26 +26,13 @@ If your Wi-Fi adapter isn't detected at all, try booting using a previous kernel
 You can also connect your Vector One to the Internet using Ethernet (recommended), a USB Wi-Fi adapter, or by tethering your[ iPhone](https://support.apple.com/guide/iphone/share-your-internet-connection-iph45447ca6/ios) or [Android](https://support.apple.com/guide/iphone/share-your-internet-connection-iph45447ca6/ios) phone.
 {% endhint %}
 
-Once your Vector One is connected to the Internet:
-
-1. Press the **Super** key on your keyboard to open the **Activities** overview. Type `software`, then click **Software & Updates**. Under the **Developer Options** tab, check the box for **Pre-released updates**. Close **Software & Updates**. When presented with a dialog that says **The information about available software is out of date**, click **Reload**.
-2. In a terminal, run:
+Once your Vector One is connected to the Internet, open a terminal and run:
 
 ```bash
-sudo apt install -y linux-firmware
+sudo apt update && sudo apt upgrade -y
 ```
 
-Confirm the updated firmware is installed by running:
-
-```bash
-dpkg --status linux-firmware | grep ^Version
-```
-
-You should see `Version: 20220329.git681281e4-0ubuntu3.29`.
-
-3. Reboot your Vector One, connect to your Wi-Fi network and test the performance.
-
-If Wi-Fi performs as expected, open **Software & Updates** and, under the **Developer Options** tab, uncheck **Pre-released updates**. Close **Software & Updates** and when presented with a dialog that says **The information about available software is out of date**, click **Reload**.
+Then, reboot your Vector One.
 
 ## Where can I download recovery images for my workstation?
 
