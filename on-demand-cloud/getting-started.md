@@ -68,7 +68,7 @@ Watch Lambda's [GPU Cloud Tutorial with Jupyter Notebook](https://www.youtube.co
 ## How do I upgrade Python?
 
 {% hint style="danger" %}
-Upgrading Python, that is, replacing the preinstalled Python version with a newer version, will break your instance.
+Upgrading Python, that is, replacing the preinstalled Python version with a newer version, will break your instance. For example,[ Jupyter Notebook](getting-started.md#how-do-i-open-jupyter-notebook-on-my-instance) is configured and tested for the Python version preinstalled on instances, and won't be accessible if the preinstalled version of Python is replaced. **If this happens and you don't have SSH access to your instance, Lambda Support won't be able to help you recover data on your instance.**
 
 Instead of upgrading Python, you should install your desired version of Python alongside the preinstalled version, and use your desired version in a [virtual environment](../software/virtual-environments-and-docker-containers.md#what-are-virtual-environments).
 {% endhint %}
