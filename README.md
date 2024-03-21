@@ -10,8 +10,15 @@ As of March 1, 2024, Lambda charges [sales tax](on-demand-cloud/billing.md#do-i-
 {% endhint %}
 
 {% hint style="info" %}
-As of March 4, 2024, [Cloud file systems](https://lambdalabs.com/blog/persistent-storage-beta) in the Texas, USA (us-south-1) are billed the same as file systems in other regions. [See our FAQ to learn more about how file systems are billed](on-demand-cloud/file-systems.md#how-are-file-systems-billed).
+As of March 4, 2024, [Cloud file systems](https://lambdalabs.com/blog/persistent-storage-beta) in the Texas, USA (us-south-1) region are billed the same as file systems in other regions. [See our FAQ to learn more about how file systems are billed](on-demand-cloud/file-systems.md#how-are-file-systems-billed).
 {% endhint %}
+
+## What's new in March 2024
+
+* Beginning March 1, Lambda started charging [sales tax for On-Demand Cloud](on-demand-cloud/billing.md#do-i-have-to-pay-sales-tax-for-usage-of-lambda-gpu-cloud).
+* Beginning March 4, Lambda started billing for [usage of Cloud file systems](on-demand-cloud/file-systems.md#how-are-file-systems-billed) in the Texas, USA (us-south-1) region.
+
+[See older Lambda news](./#gpu-cloud).
 
 ## Top FAQs
 
