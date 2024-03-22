@@ -14,6 +14,18 @@ Vector quickstart guide
 Vector One quickstart guide
 {% endfile %}
 
+## What are the buttons and ports at the front and top of my Vector One?
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption><p>Vector One front and top buttons and ports</p></figcaption></figure>
+
+Your Vector One's power button is located at the front-top.
+
+The first button at the top, closest to the front, switches between the various RGB modes. The second button at the top changes the color.
+
+The first port at the top, closest to the front, is used to connect USB-C 3.1 devices. The following 2 ports are used to connect USB-A 3.0 devices.
+
+The jack at the top is used to connect a headset/microphone.
+
 ## How do I fix Wi-Fi issues with my Vector One?
 
 There are [known issues in Ubuntu](https://bugs.launchpad.net/ubuntu/+source/linux-firmware/+bug/2049220) with the Wi-Fi adapter installed in Vector Ones. In some cases, the Wi-Fi adapter isn't detected at all. In other cases, the Wi-Fi adapter is detected but exhibits slow performance. These issues are fixed in updated firmware for the Wi-Fi adapter.
@@ -37,6 +49,12 @@ Then, reboot your Vector One.
 ## Where can I download recovery images for my workstation?
 
 Workstation recovery images can be downloaded from our [Lambda Stack and recovery images docs page](../software/lambda-stack-and-recovery-images.md#workstations).
+
+## Can I dual boot Ubuntu and Windows 11?
+
+You can't dual boot Ubuntu and Windows 11. You can have either Ubuntu _or_ Windows installed, but not both at the same time on your workstation.
+
+[Windows 11 requires Secure Boot and TPM 2.0 to be enabled](https://support.microsoft.com/en-us/windows/enable-tpm-2-0-on-your-pc-1fd5a332-360d-4f46-a1e7-ae6b0c90645c), which can prevent Ubuntu from booting or detecting your workstation's GPUs.
 
 ## How do I set the fan speeds for my workstation?
 
